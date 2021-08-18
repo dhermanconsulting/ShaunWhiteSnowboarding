@@ -1,4 +1,4 @@
-# Shaun White Snowboarding Processor Fix
+# Shaun White Snowboarding Processor Fix / Patch
 A patch to enable playing Shaun White Snowboarding on computers with >7 Logic Cores (i.e. Including Hyperthreading).
 
 When I attempted to play Shaun White Snowboarding again it failed to launch. I eventually tracked this down to an issue with systems that have more than 7 logical cores - it appears that 8 and more cause some kind of buffer overflow due to how the game manages its thread memory. This is a patched version of the game executable which limits Shaun White to 7 Threads.
