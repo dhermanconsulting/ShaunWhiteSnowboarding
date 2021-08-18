@@ -10,3 +10,13 @@ To use it:
 3. Overwrite the executable with the one from this repository: https://github.com/dhermanconsulting/ShaunWhiteSnowboarding/raw/main/ShaunWhiteSnowboardingGame-Patched.exe
 
 NOTE: The **only** change to this executable is a single line of assembly.
+
+# Manual Patch
+
+Using a hex editor, locate the following Hex string:
+
+FF 15 C0 62 5C 01 8B 4C 24 30 8B 54 24 48
+
+Replace with:
+
+FF 15 C0 62 5C 01 B9 07 00 00 00 90 90 90
