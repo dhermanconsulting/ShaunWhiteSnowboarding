@@ -6,5 +6,5 @@ When I attempted to play Shaun White Snowboarding I came accross a bug where it 
 To use it:
 
 1. Install Shaun White Snowboarding as normal
-2. Update to version 1.01 (If you don't have this update, you can find it in this repo under "Releases")
+2. Update to version 1.01 (If you don't have this update, you can find it in this repo under "Releases": https://github.com/dhermanconsulting/ShaunWhiteSnowboarding/releases)
 3. Overwrite the executable with the one from this repository
