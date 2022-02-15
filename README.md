@@ -11,7 +11,9 @@ To use it:
 
 NOTE: The **only** change to this executable is a single line of assembly.
 
-# Manual Patch
+# (Optional) Manual Patch
+
+If you'd rather implement the patch manually, you can do the following:
 
 Using a hex editor, locate the following Hex string:
 
